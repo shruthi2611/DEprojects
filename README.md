@@ -1,9 +1,8 @@
-<h1>Title Of Your Project<h1>
-#Add a catchy title to your project. Something that people immediately know what you are doing
-
-####Introduction & Goals
-Introduce your project to the reader
-Orient this section on the Table of contents
+<h1>Ecommerce Data Analysis on AWS <h1>
+  
+<h2>Introduction & Goals<h2>
+     Introduce your project to the reader
+     Orient this section on the Table of contents
 Write this like an executive summary
 With what data are you working
 What tools are you using
