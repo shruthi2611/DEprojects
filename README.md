@@ -1,4 +1,4 @@
-#####Title Of Your Project
+<h1>Title Of Your Project<h1>
 #Add a catchy title to your project. Something that people immediately know what you are doing
 
 ####Introduction & Goals
