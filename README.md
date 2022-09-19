@@ -14,13 +14,15 @@
  
  <h3>2.Process</h3>
  
- <br>[1.Simulation of streaming](https://www.google.com)</br>  
+![alt text](https://github.com/shruthi2611/DEProjects/blob/main/process.png "Process flow")
+ 
+ <br>[1.Simulation of streaming](https://github.com/shruthi2611/DEProjects/blob/main/simulation_src_code.ipynb)</br>  
      
- <br>[2.Data ingestion from source to kinesis via API](https://www.google.com)</br>
+ <br>[2.Data ingestion from source to kinesis via API](https://github.com/shruthi2611/DEProjects/blob/main/Write_to_kinesis.py)</br>
+
+<br>[3.Storing unprocessed data in S3](https://github.com/shruthi2611/DEProjects/blob/main/write_kinesis_to_s3.py)</br>
      
- <br>[3.storing unprocessed data in S3](https://www.google.com)</br>
-     
- <br>[4.Writing data to DynamoDB](https://www.google.com)</br>
+ <br>[4.Writing data to DynamoDB](https://github.com/shruthi2611/DEProjects/blob/main/Kinesis_to_Dynamodb.py)</br>
      
  <br>[5.Creating delivery stream in Kinesis Firehose](https://www.google.com)</br>
      
