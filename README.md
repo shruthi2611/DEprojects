@@ -41,17 +41,17 @@
 
 <br>2.Data from redshift can be analyzed to derive insights.</br>
  
-<br>1.Item which has the maximum price countrywise</br>
+<br>1.Products with the maximum unit price countrywise</br>
  
-![alt text](https://github.com/shruthi2611/DEProjects/blob/main/process.png "Process flow")
+![alt text](https://github.com/shruthi2611/DEProjects/blob/main/max_unit_price.PNG "Priceflow")
 
-<br>2.Product that shows highest sales countrywise</br>
+<br>2.Products that show highest sales countrywise</br>
  
-![alt text](https://github.com/shruthi2611/DEProjects/blob/main/process.png "Process flow")
+![alt text](https://github.com/shruthi2611/DEProjects/blob/main/product_max_sales.PNG "Product")
 
 <br>3.Total sales</br>
  
-![alt text](https://github.com/shruthi2611/DEProjects/blob/main/process.png "Process flow")
+![alt text](https://github.com/shruthi2611/DEProjects/blob/main/Total_sales.PNG "sales")
    
      
      
