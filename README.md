@@ -38,7 +38,7 @@
 
 <br>1.Accessing Customer and Invoice data</br>
 
- <br>Using Api gateway we can access a single customer or invoice information,this will be useful in scnarios where the customer has to access thier purchase information</br>
+ <br>Using Api gateway we can access a single customer or invoice information,this will be useful in scenarios where the customer has to access thier purchase information</br>
 
 <br>2.Data from redshift can be analyzed to derive insights.</br>
  
