@@ -1,4 +1,4 @@
-<h2>Data Pipeline using AWS&Python </h2>
+<h2>AWS Data Pipeline for Ecommerce Data</h2>
 <h3>Introduction</h3>
 <br>The purpose of this project is to build a pipeline that will process the selected ecommerce dataset using AWS services&Python and prepare the data for further analysis</br>
      <br>Expected Results:</br>
@@ -17,8 +17,8 @@
 ![alt text](https://github.com/shruthi2611/DEProjects/blob/main/process.png "Process flow")
  <br>[1.Simulation of streaming](https://github.com/shruthi2611/DEProjects/blob/main/simulation_src_code.ipynb)</br> 
       <br>Python code to stream data from csv file record by record </br>
- <br>[2.Data ingestion from source to kinesis via API](https://github.com/shruthi2611/DEProjects/blob/main/Write_to_kinesis.py)</br>
- <br>Configure a lambda fucntion to write from the API gateway to kinesis</br>
+ <br>2.Data ingestion from source to kinesis via API</br>
+ <br>Configure a lambda function to write from the API gateway to kinesis</br>
  <br>Setup the API gateway to trigger lambda</br>
 ![alt text](https://github.com/shruthi2611/DEProjects/blob/main/Apigateway.PNG "Api")
  <br>[3.Storing unprocessed data in S3](https://github.com/shruthi2611/DEProjects/blob/main/write_kinesis_to_s3.py)</br>
@@ -27,6 +27,7 @@
       <br>Create Customer and Invoice tables in Dynamodb</br>
       <br>Customer table will have the customerid and the invoices related to the customer</br>
       <br>Invoice table will have the stockcode,item purchased ,quantity,unitprice for each invoice</br>
+      <br>LAmbda function to write data from kinesis to dynamodb</br>
  <br>[5.Creating delivery stream in Kinesis Firehose](https://github.com/shruthi2611/DEProjects/blob/main/Copy%20command.txt)</br>
       <br>Create redshift table for the source data</br>
       <br>Setup a delivery stream in Kinesis firehose to move data to Redshift with the kinesis stream as the source</br>
@@ -35,9 +36,9 @@
 ![alt text](https://github.com/shruthi2611/DEProjects/blob/main/KinesisFirehose.PNG "kinesis")</br>
 <h3><p id="Analysis">Analysis</p></h3>
 
-<br>[1.Accessing Customer and Invoice data](https://github.com/shruthi2611/DEProjects/blob/main/Write_to_kinesis.py)</br>
+<br>1.Accessing Customer and Invoice data</br>
 
- <br>Using Api gateway we can access a single customer or invoice information,this will be useful in scnarios where the customer has to access thier purchase information</br>
+ <br>Using Api gateway we can access a single customer or invoice information,this will be useful in scenarios where the customer has to access thier purchase information</br>
 
 <br>2.Data from redshift can be analyzed to derive insights.</br>
  
