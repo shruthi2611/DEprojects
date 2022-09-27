@@ -3,17 +3,17 @@ import json
 import boto3
 from datetime import datetime
 
-s3_client = boto3.client('s3')
-dateTimeObj = datetime.now()
-timestampStr = dateTimeObj.strftime("%d-%b-%Y-%H%M%S")
+s3 = boto3.client('s3')
+dateTime = datetime.now()
+timestampStr = dateTime.strftime("%d-%b-%Y-%H%M%S")
 
-kinesisRecords = []
+kRecords = []
 
 def lambda_handler(event, context):
     for record in event['Records']:
         payload = base64.b64decode(record['kinesis']['data'])
-        kinesisRecords.append(payload)
+        kRecords.append(payload)
    
-    ex_string = b'\n'.join(kinesisRecords)
-    mykey = 'output-' + timestampStr + '.txt'
-    response = s3_client.put_object(Body=ex_string, Bucket='ecomproj', Key= mykey)
+    ex_string = b'\n'.join(kRecords)
+    mykey = 'output' + timestampStr + '.txt'
+    response = s3.put_object(Body=ex_string, Bucket='<bucket name>', Key= mykey)
