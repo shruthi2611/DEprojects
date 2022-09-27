@@ -1,0 +1,17 @@
+import pandas as pd
+import requests
+URL= '<api url>'
+data = pd.read_csv('<source file path>', sep = ',')
+for i in data.index:
+    try:
+        # convert the row to json
+        export = data.loc[i].to_json()
+
+        #send it to the api
+        response = requests.post(URL, data = export)
+
+        # print the returncode
+        print(export)
+        print(response)
+    except:
+        print(data.loc[i])
