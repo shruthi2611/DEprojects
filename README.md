@@ -1,6 +1,6 @@
 <h2>AWS Data Pipeline for Ecommerce Data</h2>
 <h3>Introduction</h3>
-<br>The purpose oAWS Data Pipeline for Ecommerce Dataf this project is to build a pipeline that will process the selected ecommerce dataset using AWS services&Python and prepare the data for further analysis</br>
+<br>The purpose of this project is to build a pipeline that will process the selected ecommerce dataset using AWS services&Python and prepare the data for further analysis</br>
      <br>Expected Results:</br>
      <br>1.Access to Customer & Invoice data through API</br>
      <br>2.Data Analysis -Maximum priced product country-wise,total sales amount per month,product that had the highest sales<br/>
