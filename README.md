@@ -15,7 +15,7 @@
  <h3><p id="Process">Process</p></h3>
  
 ![alt text](https://github.com/shruthi2611/DEProjects/blob/main/process.png "Process flow")
- <br>[1.Simulation of streaming](https://github.com/shruthi2611/DEProjects/blob/main/simulation_src_code.ipynb)</br> 
+ <br>[1.Simulation of streaming](https://github.com/shruthi2611/DEProjects/blob/main/src_code_simulation.txt)</br> 
       <br>Python code to stream data from csv file record by record </br>
  <br>2.Data ingestion from source to kinesis via API</br>
  <br>Configure a lambda function to write from the API gateway to kinesis</br>
@@ -27,7 +27,7 @@
       <br>Create Customer and Invoice tables in Dynamodb</br>
       <br>Customer table will have the customerid and the invoices related to the customer</br>
       <br>Invoice table will have the stockcode,item purchased ,quantity,unitprice for each invoice</br>
-      <br>LAmbda function to write data from kinesis to dynamodb</br>
+      <br>Lambda function to write data from kinesis to dynamodb</br>
  <br>[5.Creating delivery stream in Kinesis Firehose](https://github.com/shruthi2611/DEProjects/blob/main/Copy%20command.txt)</br>
       <br>Create redshift table for the source data</br>
       <br>Setup a delivery stream in Kinesis firehose to move data to Redshift with the kinesis stream as the source</br>
